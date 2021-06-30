@@ -116,14 +116,14 @@ a{
     height: 40px;
     position: relative;
   
-    top: 35vh;
-    left: -80%;
+    top: 30vh;
+    left: -72%;
 }
 
 h3 a{
     position: relative;
-    top: 230px;
-    left:-35%;
+    top: 144px;
+    left:-38%;
     color: wheat;
    text-decoration: none;
    
@@ -151,18 +151,20 @@ h2{
 
 p{
     position: relative;
-    left: 4px;
+    left: -60px;
     right: 10px;
-    top: 50px;
+    top: 20px;
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 2px;
+    padding-left: 20%;
+    padding-right: 20px;
     
 }
 
 #subscribe{
    
-    height: 90vh;
+    height: 91vh;
     width: 108%;
     background-color: #328F69;
     text-align: center;
@@ -173,6 +175,8 @@ p{
 h2{
     font-weight: bold;
     color: #F4C7AB;
+    position: relative;
+    left: -10px;
 }
 
 .subs{
@@ -180,17 +184,19 @@ h2{
     letter-spacing: 3px;
     position: relative;
     top: 20px;
-    left: 7px;
+    left:-40px;
     padding: 4px;
+    padding-left: 10%;
+    padding-right: 20px;
 }
 .txt{
     position: relative;
-    top: 50px;
+    top: 58px;
     display: block;
-    left: 45px;
+    left: 20%;
     width: 20em;
     height: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border-radius: 10px;
     outline: none;
     text-align: center;
@@ -200,7 +206,7 @@ h2{
 }
 .btn{
     position: relative;
-    top: 50px;
+    top: 40px;
     left:-14px;
     width: 10em;
     height: 40px;
@@ -222,9 +228,10 @@ h2{
 
 h4{
     position: relative;
-    top: 60px;
+    top: 50px;
     left: -12px;
 }
+
 
 @media only screen and (min-width: 768px) {
     body{
