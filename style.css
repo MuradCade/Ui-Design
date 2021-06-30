@@ -262,6 +262,11 @@ h4{
            font-size: 60px;
            left: 10px;
            margin-bottom: 2px;
+         
+    }
+    h1:hover{
+        animation: rot 1s linear;
+        cursor: pointer;
     }
     .sub-con{
         position: relative;
@@ -450,6 +455,16 @@ h4{
         top: 350px;
         left: -35%;
     }
+    @keyframes rot {
+        from{
+            transform: rotate(0deg);
+        }    
     
+        to{
+            transform: rotate(365deg);
+        }
+    }
 }
+
+
 
