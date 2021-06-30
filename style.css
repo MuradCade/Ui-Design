@@ -233,7 +233,7 @@ h4{
 }
 
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     body{
    
         overflow-x: hidden;
@@ -378,7 +378,7 @@ h4{
     
     p{
         position: relative;
-        left: 10px;
+        left: -80px;
         right: 10px;
         top: 50px;
         font-size: 24px;
