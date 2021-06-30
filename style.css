@@ -230,6 +230,8 @@ h4{
     position: relative;
     top: 50px;
     left: -12px;
+    color:black;
+    font-weight:bold;
 }
 
 
@@ -454,6 +456,8 @@ h4{
         position: relative;
         top: 350px;
         left: -35%;
+         color:black;
+        font-weight:bold;
     }
     @keyframes rot {
         from{
