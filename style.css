@@ -212,7 +212,7 @@ h2{
     width: 10em;
     height: 40px;
     background-color: #16F5A2;
-    color: #003CFF;
+     color: #000000;
     font-weight: bold;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgb(0, 0, 0);
@@ -439,7 +439,7 @@ h4{
         width: 10em;
         height: 40px;
         background-color: #16F5A2;
-        color: #003CFF;
+         color: #000000;
         font-weight: bold;
         border-radius: 10px;
         box-shadow: 10px 10px 10px rgb(0, 0, 0);
