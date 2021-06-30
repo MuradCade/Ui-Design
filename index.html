@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Crown.svg" type="image/x-icon">
+    <title>UI Design</title>
+</head>
+<body>
+    
+    <section id="home">
+     
+           
+            <ul>
+                <img src="Crown.svg" alt="icon">
+                <h5>   </h5>
+             <li><a href="#home">Home</a></li>
+             <li><a href="#about">About</a></li>
+             <li><a href="#subscribe">Subscribe</a></li>
+            </ul>
+      
+        <h1>Full Stack Web Developer</h1> </br>
+       <h5 class="sub-con">By Murad Cade</h5>
+        <button id="btn1"><a href="#subscribe">Learn More</a></button>
+        <img src="git.png" alt="pic" class="img">
+        <h3><a href="https://github.com/MuradCade">github</a></h3>
+    </section>
+
+    <section id="about">
+        <h2>Hello 🖐 , I am Murad Cade</h2>
+        <p>I know how to write code and want  to become an awesome Programmer <br>
+
+            and Developer .  I am  currently learning Front-End  Web Developer . <br>
+            
+            I 🧡 to play with Css and Javascript. <br>
+            
+             I🧡 to Write Code in Javascript ,   Python and C++</p>
+    </section>
+
+    <section id="subscribe">
+        <h2>Clean Code Friday</h2>
+        <p class="subs">Every Friday, I send out an exclusive email that contains <br>
+            a few of the most interesting things I have found this week. <br> <br>
+            This could include books, apps, articles, podcast episodes,  <br>
+            coding tips and ideas I have. And also anything and <br><br>
+            everything else I might discover. Mostly related to <br>
+            programming, tech and productivity.</p>
+
+        <input type="text" class="txt" id="txt" placeholder="Your Email..." autocomplete="off">
+        <button id="btn" class="btn" onclick="check()">Submit</button>
+        <h4 id="msg"></h4>
+    </section> 
+    <script>
+        function check(){
+
+            let data = document.getElementById('txt').value;
+            if(data.length == 0){
+                document.getElementById('msg').innerHTML = "Please Enter Your Email";
+                data.value = null;
+                document.getElementById('txt').value ='';
+            }
+
+            else if(data.length <12){
+                document.getElementById('msg').innerHTML = "Please Enter The Correct Email";
+                document.getElementById('txt').value ='';
+            }
+            else{
+                document.getElementById('msg').innerHTML = "Subscribed Sucessfully";
+                document.getElementById('txt').value ='';
+            }
+        }
+    </script>
+</body>
+</html>
